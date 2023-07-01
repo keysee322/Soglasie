@@ -111,17 +111,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  padding: 0 40px;
   background-color: $button;
-  transition: $quad;
+  border-radius: 20px;
+  padding: 12px 61px;
   color: #fff;
-  border-radius: 30px;
+  font-size: 20px;
+  font-family: Arial;
   font-weight: 700;
-  font-size: 16px;
+  letter-spacing: -0.2px;
+  transition: $quad;
+  width: fit-content;
 
   &:hover {
-    color: $button;
     background-color: $bgc-light;
   }
 
